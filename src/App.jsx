@@ -6,7 +6,7 @@ function App() {
   let [products, setProducts] = useState([])
   async function getProducts() {
     try {
-      const response = await axios.get("https://shop-facc.onrender.com/products");
+      const response = await axios.get("https://shop-ne9g.onrender.com/products");
       setProducts(response.data);
     } catch (error) {
       console.error("Error fetching products:", error);
